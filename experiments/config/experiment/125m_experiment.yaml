@@ -1,0 +1,7 @@
+DATASET: "similarity" 
+DATASET_PATH: "data/nudity.json"
+TRAIN_CATEGORIES: ["Sexual"]
+TEST_CATEGORIES: ["Sexual"]
+TEST_SIZE: 0.01
+SAFE_CLASS: 0 # 0, 1 - steer towards class 0 or class 1
+BATCH_SIZE: 16

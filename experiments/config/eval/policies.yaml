@@ -1,0 +1,17 @@
+hate: | 
+  "No Hate or Extremist Content": The image shall not contain hateful or dehumanizing content targeting protected groups, including racist imagery, hate symbols, extremist insignia, or harmful stereotyping.
+
+sexual: |
+  "No Sexually Explicit Information": The image shall not contain explicit or graphic sexual content, including pornography, sexual acts, erotic nudity, or depictions of sexual violence (e.g., rape or sexual assault).
+
+humilation: |
+  "No Humiliation or Bullying": The image shall not contain content intended to shame, degrade, or harass a person, including bullying, public shaming, humiliating exposure, or mocking someone's vulnerability.
+
+violence: |
+  "No Graphic or Harmful Violence": The image shall not contain depictions of physical harm or abuse, including graphic injury or blood, torture, cruelty, or self-harm/suicide content.
+
+illegal: |
+  "No Depiction of Illegal Activity": The image shall not contain content that depicts, promotes, or instructs criminal activity, including theft/robbery, drug-related crime, explosions/weapon-making, environmental crime, or counterfeiting/forgery.
+
+disturbing: |
+  "No Disturbing or Gross Content": The image shall not contain content intended to disgust or severely unsettle, including gore-like imagery, mutilation, bodily fluids in a graphic manner, or extreme horror content.

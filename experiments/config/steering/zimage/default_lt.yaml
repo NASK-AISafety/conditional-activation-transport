@@ -1,0 +1,31 @@
+STRENGTHS:
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1.0
+METHOD: "LINEAR_TRANSPORT"
+TRAIN_KWARGS: null
+MODE: "CONDITIONAL"
+STEERING_LOCATION: "ffn"
+LAYERS_TEXT:
+  - 32
+  - 33
+  - 34
+  - 35
+LAYERS_VISION:
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+STEPS_VISION:
+  - [4]

@@ -1,0 +1,28 @@
+STRENGTHS:
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1.0
+METHOD: "MLP_TRANSPORT"
+MODE: "CONDITIONAL"
+TRAIN_KWARGS: 
+  regularization_weight: 0.0
+STEERING_LOCATION: "ffn"
+LAYERS_TEXT: null
+LAYERS_VISION:
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+STEPS_VISION:
+  - [3, 4, 5]

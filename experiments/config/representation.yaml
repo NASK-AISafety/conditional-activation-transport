@@ -1,0 +1,20 @@
+defaults:
+  - infinity: 125m_model
+  - experiment: default
+  - _self_
+
+hydra:
+  run:
+    dir: .
+  sweep:
+    dir: .
+  output_subdir: null
+  job_logging: {}
+  hydra_logging: {}
+
+save_folder: "../experiment_9/weights"
+modalities:
+  - "vision"
+l2_bounds: [0.0, 0.13]
+cos_dist_bounds: [0.0, 0.06]
+lin_prb_auc_bounds: [0.55, 1.0]

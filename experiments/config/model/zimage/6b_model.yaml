@@ -1,0 +1,8 @@
+_target_: utils.z_image_utils.ZimageSteerer
+params:
+  arch: "zimage"
+  weights: "checkpoints/Z-Image-Turbo"
+  inference_steps: 8
+  num_layers: 30
+  guidance_scale: 0.0
+  out_folder: "zimage_6b_model"

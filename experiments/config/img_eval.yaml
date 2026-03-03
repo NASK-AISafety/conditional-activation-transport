@@ -1,0 +1,30 @@
+defaults:
+  - eval: policies
+  - _self_
+
+hydra:
+  run:
+    dir: .
+  sweep:
+    dir: .
+  output_subdir: null
+  job_logging: {}
+  hydra_logging: {}
+
+
+classifier: false
+clip: false
+fid: true
+
+batch_size: 1
+policies: 
+  - "sexual"
+  - "hate"
+  - "humilation"
+  - "violence"
+  - "illegal"
+  - "disturbing"
+quant: false
+fid_dataset: "sayakpaul/coco-30-val-2014"
+clip_samples: 100
+subfolders: true

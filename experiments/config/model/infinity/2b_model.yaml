@@ -1,0 +1,17 @@
+_target_: utils.infinity_utils.InfinitySteerer
+params:
+  arch: "infinity"
+  repository: "FoundationVision/Infinity"
+  hf_hub_token: "YOUR_TOKEN_HERE"
+  weights: "checkpoints/Infinity2b"
+  model_name: "infinity_2b_reg.pth"
+  model_type: "infinity_2b"
+  vae_name: "infinity_vae_d32reg.pth"
+  vae_type: 32
+  num_layers: 32
+  num_scales: 7
+  text_encoder_ckpt: "google/flan-t5-xl"
+  pixel_number: "1M"
+  cfg: 3.0
+  out_folder: "infinity_2b_model"
+

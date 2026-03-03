@@ -1,0 +1,16 @@
+defaults:
+  - model: zimage/6b_model
+  - experiment: sexual
+  - steering: zimage/default_train2
+  - conditioning: none
+  - _self_
+
+hydra:
+  run:
+    dir: "outputs/${model.params.out_folder}/${now:%Y-%m-%d_%H-%M-%S}"
+  output_subdir: .
+
+save_folder: ${hydra:runtime.output_dir}
+cache: "activations/${model.params.arch}"
+clear_cache: false
+

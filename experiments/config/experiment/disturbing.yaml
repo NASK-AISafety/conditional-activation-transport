@@ -1,0 +1,7 @@
+DATASET: "similarity" 
+DATASET_PATH: "data/train_evaluated_similarity_dataset_with_safety.parquet" 
+TEST_DATASET_PATH: "data/test_evaluated_similarity_dataset_with_safety.parquet"
+TRAIN_CATEGORIES: ['Disturbing']
+TEST_CATEGORIES: ['Disturbing']
+SAFE_CLASS: 0 # 0, 1 - steer towards class 0 or class 1
+BATCH_SIZE: 1

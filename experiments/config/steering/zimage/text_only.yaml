@@ -1,0 +1,16 @@
+STRENGTHS:
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1.0
+METHOD: "MEAN"
+MODE: "CONDITIONAL"
+TRAIN_KWARGS: null
+STEERING_LOCATION: "ffn"
+LAYERS_TEXT:
+  - 32
+  - 33
+  - 34
+  - 35
+LAYERS_VISION: null
+STEPS_VISION: null
